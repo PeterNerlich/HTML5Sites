@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Anselm Urban -- design & dev -- @anselm_urban
+
+# THANKS
+
+    ... to CodyHouse.co for their absolutely great CSS Content Filter (http://codyhouse.co/gem/content-filter/)
+	and eager.io for all the great apps
+	and all the awesome people tweeting about this project!
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

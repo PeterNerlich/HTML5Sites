@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 951.55641 411.38"
+   width="951.556"
+   height="411.38">
+  <metadata
+     id="metadata46">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>HTML5 Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs44">
+    <filter
+       id="filter4326"
+       style="color-interpolation-filters:sRGB;">
+      <feFlood
+         id="feFlood4328"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.282353" />
+      <feComposite
+         id="feComposite4330"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur4332"
+         result="blur"
+         stdDeviation="3"
+         in="composite1" />
+      <feOffset
+         id="feOffset4334"
+         result="offset"
+         dy="6"
+         dx="6" />
+      <feComposite
+         id="feComposite4336"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
+  <title
+     id="title4">HTML5 Logo</title>
+  <g
+     id="g6">
+    <path
+       id="path8"
+       d="M657.145 0l-33.046 370.199-148.543 41.181-148.134-41.123-33.011-370.257z"
+       fill="#e44d26" />
+    <path
+       id="path10"
+       d="M475.778 379.903l120.03-33.277 28.24-316.352h-148.27z"
+       fill="#f16529" />
+    <path
+       id="path12"
+       d="M411.538 121.096h64.24v-45.411h-113.868l1.087 12.183 11.161 125.139h101.62v-45.41h-60.09z"
+       fill="#ebebeb" />
+    <path
+       id="path14"
+       d="M475.778 332.779v-47.246l-.199.053-50.574-13.656-3.233-36.217h-45.585l6.362 71.301 93.02 25.823z"
+       fill="#ebebeb" />
+    <path
+       id="path16"
+       d="M581.177 167.597h-105.556v45.41h55.918l-5.271 58.894-50.647 13.67v47.244l93.094-25.801.683-7.672 10.671-119.551z"
+       fill="#fff" />
+    <path
+       id="path18"
+       d="M475.621 120.985v.111h109.688l.911-10.207 2.069-23.021 1.086-12.183h-113.754v28.204z"
+       fill="#fff" />
+  </g>
+  <g
+     id="g20"
+     word-spacing="0"
+     letter-spacing="0"
+     font-family="Big John"
+     font-size="93.75"
+     style="line-height:125%">
+    <path
+       id="path22"
+       d="M740.07 192.143c0-12-9.656-21.563-21.656-21.563-12 0-21.563 9.656-21.563 21.656 0 12 9.563 21.563 21.563 21.563 2.906 0 5.344 2.438 5.344 5.344s-2.438 5.25-5.344 5.25-5.25-2.344-5.25-5.344h-16.406c0 12.375 9.656 21.844 21.656 21.844 12 0 21.656-9.563 21.656-21.563 0-5.156-1.688-9.844-4.688-13.594-3.938-5.063-10.125-8.344-16.969-8.344-2.906 0-5.25-2.344-5.25-5.25s2.344-5.344 5.25-5.344 5.344 2.438 5.344 5.344h16.313z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path24"
+       d="M753.086 240.893h18.469v-70.313h-18.469v70.313z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path26"
+       d="M784.273 188.862h18.281v52.031h18.469v-52.031h18.656v-18.375h-55.406v18.375z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path28"
+       d="M852.423 240.893h43.688v-15.094h-25.219v-12.938h22.313v-15.563h-22.313v-11.438h25.219v-15.281h-43.688v70.313z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path30"
+       d="M951.556 192.143c0-12-9.656-21.563-21.656-21.563-12 0-21.563 9.656-21.563 21.656 0 12 9.563 21.563 21.563 21.563 2.906 0 5.344 2.438 5.344 5.344s-2.438 5.25-5.344 5.25-5.25-2.344-5.25-5.344h-16.406c0 12.375 9.656 21.844 21.656 21.844 12 0 21.656-9.563 21.656-21.563 0-5.156-1.688-9.844-4.688-13.594-3.938-5.063-10.125-8.344-16.969-8.344-2.906 0-5.25-2.344-5.25-5.25s2.344-5.344 5.25-5.344 5.344 2.438 5.344 5.344h16.313z"
+       style="-inkscape-font-specification:'Big John'" />
+  </g>
+  <g
+     id="g32"
+     word-spacing="0"
+     letter-spacing="0"
+     font-family="Big John"
+     font-size="93.75"
+     style="line-height:125%">
+    <path
+       id="path34"
+       d="M0 170.581v70.313h18.469v-26.813h22.313v26.813h18.469v-70.313h-18.469v25.031h-22.313v-25.031h-18.469z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path36"
+       d="M71.925 188.862h18.281v52.031h18.469v-52.031h18.656v-18.375h-55.406v18.375z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path38"
+       d="M148.419 170.581h-8.344v70.313h18.563v-36l18.469 16.688 18.375-16.781v36.094h18.563v-70.313h-8.344l-28.594 26.063-28.688-26.063z"
+       style="-inkscape-font-specification:'Big John'" />
+    <path
+       id="path40"
+       d="M228.149 240.893h43.781v-18.563h-25.313v-51.75h-18.469v70.313z"
+       style="-inkscape-font-specification:'Big John'" />
+  </g>
+  <g
+     style="fill:#ffcc00;filter:url(#filter4326)"
+     transform="matrix(1.0858848,0.25100038,-0.25100038,1.0858848,540.62872,1.3408769)"
+     id="g4237">
+    <g
+       style="fill:#ffcc00"
+       id="Livello_100">
+      <path
+         style="fill:#ffcc00"
+         d="m 139.273,49.088 c 0,-3.284 -2.75,-5.949 -6.146,-5.949 -0.219,0 -0.434,0.012 -0.646,0.031 L 90.036,42.169 75.536,4.315 C 74.805,1.824 72.443,0 69.637,0 66.828,0 64.469,1.824 63.735,4.315 L 49.232,42.169 6.789,43.17 C 6.576,43.149 6.359,43.139 6.143,43.139 2.75,43.136 0,45.802 0,49.088 c 0,2.1 1.121,3.938 2.812,4.997 l 33.807,23.9 -12.063,37.494 c -0.438,0.813 -0.688,1.741 -0.688,2.723 0,3.287 2.75,5.952 6.146,5.952 1.438,0 2.766,-0.484 3.812,-1.29 l 35.814,-22.737 35.812,22.737 c 1.049,0.806 2.371,1.29 3.812,1.29 3.393,0 6.143,-2.665 6.143,-5.952 0,-0.979 -0.25,-1.906 -0.688,-2.723 l -12.062,-37.494 33.806,-23.9 c 1.687,-1.061 2.81,-2.9 2.81,-4.997"
+         id="path4228" />
+    </g>
+    <g
+       style="fill:#ffcc00"
+       id="Livello_1_1_" />
+  </g>
+</svg>
