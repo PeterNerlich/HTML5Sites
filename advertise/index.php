@@ -49,8 +49,19 @@
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 		<meta name="msapplication-tap-highlight" content="no">
 		<meta name="theme-color" content="#e44d26">
-		<script src="//use.edgefonts.net/source-sans-pro:n3,n4,i4,n6:all.js" async></script>
-		<link rel="stylesheet" href="../css/main.css">
+		<style>
+			html,body,div,span,iframe,h1,h2,p,a,img,strong,i,center,ul,li,form,label,article,footer,header{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:initial;border-color:initial;font-size:100%;font:inherit;vertical-align:baseline}article,footer,header,main{display:block}ul{list-style-type:none;list-style-position:initial;list-style-image:initial}html{color:#222;font-size:1em;line-height:1.4}iframe,img{vertical-align:middle}textarea{resize:vertical}*{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased!important;box-sizing:border-box}html.touch *,html.touch :before,html.touch :after{text-rendering:optimizespeed}html{font-size:62.5%}body:before,body:after{display:block;content:""}body{width:100%;height:100%;font-size:1.5rem;font-family:source-sans-pro,sans-serif;background-image:url(../img/bg-top.png);background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;padding-top:50px;padding-right:0;padding-bottom:50px;padding-left:0;z-index:0;background-position:50% 0;background-repeat:no-repeat no-repeat}h1,h2{text-align:center;font-weight:400;font-family:big_johnregular,sans-serif}h2{font-size:1.8rem;margin-top:.83em;margin-right:0;margin-bottom:.83em;margin-left:0}h1,h2{cursor:default}p{text-align:justify}a{text-decoration:none;color:#e44d26}iframe{border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:initial;border-color:initial}strong{font-weight:600}input,button{font-size:1.5rem;font-family:source-sans-pro,sans-serif}#header{padding-top:0;padding-right:15px;padding-bottom:0;padding-left:15px}#header-logo{width:100%;max-width:256px;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto}#header-logo a{display:inline-block}#header-logo img{width:100%;pointer-events:none}#article{max-width:45em;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em}#article p,#article ul{font-size:1.8rem}#article p{margin-top:1em;margin-right:0;margin-bottom:1em;margin-left:0}#footer{border-top-width:1px;border-top-style:solid;border-top-color:#e2e2e2;padding-top:0;padding-right:5%;padding-bottom:0;padding-left:5%}#footer p{padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;color:#e44d26;text-align:center;font-size:1.3rem}#footer p a{color:#e44d26;text-decoration:none;font-weight:600}@media only screen and (min-width:40em){h2{font-size:2.4rem}}@media only screen and (min-width:768px){#footer{padding-top:0;padding-right:3%;padding-bottom:0;padding-left:3%}}@media only screen and (min-width:1170px){#footer{padding-top:0;padding-right:2%;padding-bottom:0;padding-left:2%}}.visuallyhidden{border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:initial;border-color:initial;clip:rect(0 0 0 0);height:1px;margin-top:-1px;margin-right:-1px;margin-bottom:-1px;margin-left:-1px;overflow-x:hidden;overflow-y:hidden;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;position:absolute;width:1px}@media print{*{background-image:initial!important;background-attachment:initial!important;background-origin:initial!important;background-clip:initial!important;background-color:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;background-position:initial initial!important;background-repeat:initial initial!important}a{text-decoration:underline}a[href]:after{content:" (",attr(href),")"}a[href^="#"]:after{content:""}img{page-break-inside:avoid;max-width:100%!important}p,h2{orphans:3;widows:3}h2{page-break-after:avoid}}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased}.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.fa-ul>li{position:relative}.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}
+		</style>
+		<script>
+			/*!
+			loadCSS: load a CSS file asynchronously.
+			[c]2014 @scottjehl, Filament Group, Inc.
+			Licensed MIT
+			*/
+			function loadCSS(f,b,g,c){var a=window.document.createElement("link");b=b||window.document.getElementsByTagName("script")[0];var e=window.document.styleSheets;a.rel="stylesheet";a.href=f;a.media="only x";c&&(a.onload=c);b.parentNode.insertBefore(a,b);a.onloadcssdefined=function(b){for(var c,d=0;d<e.length;d++)e[d].href&&e[d].href===a.href&&(c=!0);c?b():setTimeout(function(){a.onloadcssdefined(b)})};a.onloadcssdefined(function(){a.media=g||"all"});return a}
+			loadCSS("../css/main.css");
+		</script>
+		<noscript><link rel="stylesheet" href="../css/main.css"></noscript>
 		<link rel="prefetch" href="../">
 		<link rel="prerender" href="../">
 	</head>
@@ -86,6 +97,7 @@
 			</p>
 		</footer>
 
+		<script src="//use.edgefonts.net/source-sans-pro:n3,n4,i4,n6:all.js" async></script>
 		<script src="../js/vendor/prefixfree.js"></script>
 		<script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 		<script src="//fast.eager.io/cw6jSdfMhqvO.js"></script>

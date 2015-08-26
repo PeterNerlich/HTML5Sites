@@ -99,6 +99,7 @@ body {
 	height: 100%;
 	font-size: 1.5rem;
     font-family: source-sans-pro,sans-serif;
+	background: url("../img/bg-top.png") no-repeat top center;
     padding: 50px 0;
     z-index: 0;
 	user-select: text;
