@@ -1,4 +1,4 @@
-<?php require_once( "dld89430upsnmUDCX/cms.php" ); ?>
+<?php #require_once( "dld89430upsnmUDCX/cms.php" ); ?>
 <cms:template title="Homepage"></cms:template>
 <!doctype html>
 <!--
