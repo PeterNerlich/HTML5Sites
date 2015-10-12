@@ -1,5 +1,3 @@
-<?php require_once( "../dld89430upsnmUDCX/cms.php" ); ?>
-<cms:template title="Advertise"></cms:template>
 <!doctype html>
 <!--
       _                             __                 _____  _____       __                        
@@ -14,7 +12,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Advertise with HTML5Sites for only 25$ per month! – A curated gallery of sites about HTML5</title>
+		<title>Advertise for only 25$ per month! – A curated gallery of sites about HTML5</title>
 		<meta name="description" content="Advertise with HTML5Sites for only 25$ per month! – A curated gallery of sites about HTML5. Here you can find lots of tutorials, demos, and other interesting stuff, also in other languages. The gallery can be sorted by category, language or keywords.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 		<meta name="google" content="notranslate">
@@ -25,9 +23,9 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@HTML5Sit_es">
 		<meta name="twitter:creator" content="@HTML5Sit_es">
-		<meta name="twitter:title" content="Advertise with HTML5Sites for only 25$ per month! – A curated gallery of sites about HTML5">
-		<meta name="twitter:description" content="Advertise with HTML5Sites for only 25$ per month! – A curated gallery of sites about HTML5. Here you can find lots of tutorials, demos, and other interesting stuff, also in other languages. The gallery can be sorted by category, language or keywords.">
-		<meta name="twitter:image" content="https://html5sit.es/logo.png">
+		<meta name="twitter:title" content="Advertise for only 25$ per month! – A curated gallery of sites about HTML5">
+		<meta name="twitter:description" content="Advertise for only 25$ per month! – A curated gallery of sites about HTML5. Here you can find lots of tutorials, demos, and other interesting stuff, also in other languages. The gallery can be sorted by category, language or keywords.">
+		<meta name="twitter:image" content="https://html5sit.es/img/bg-logo.png">
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -72,7 +70,6 @@
 		</header>
         <main>
 			<article id="article">
-				<cms:editable name="Main" type="textarea">
 					<h2 style="font-size: 1.8rem;">Advertise with HTML5Sites</h2>
 					<p><strong>Do you want to expose your awesome website, blog or other project to a broader audience?</strong></p>
 					<p>By featuring your site on <a href="../">HTML5Sites</a>, you make sure that thousands of web designers and developers from all over the world get to know your site (and may become clients).</p>
@@ -85,7 +82,6 @@
 						</ul>
 					</p>
 					<p>Starting at 25$ per month. <strong><a href="mailto:hello@html5sit.es" itemprop="email">Get in touch now <i class="fa fa-chevron-right"></i></a></strong></p>
-				</cms:editable>
 			</article>
         </main>
         <footer id="footer" style="max-width: 45em; margin: 0 auto;">
@@ -125,4 +121,3 @@
         </script>
     </body>
 </html>
-<?php COUCH::invoke(); ?>
