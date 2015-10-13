@@ -1,0 +1,190 @@
+/* charset and viewport */
+.head() {
+	@charset "UTF-8";
+	@-ms-viewport {
+		width: device-width;
+		zoom: 1;
+		max-zoom: 1;
+		user-zoom: fixed;
+	}
+	@-o-viewport {
+		width: device-width;
+		zoom: 1;
+		max-zoom: 1;
+		user-zoom: fixed;
+	}
+	@viewport {
+		width: device-width;
+		zoom: 1;
+		max-zoom: 1;
+		user-zoom: fixed;
+	}
+}
+
+/* normalize-opentype */
+.normalize-opentype() {
+	/*! normalize-opentype.css v0.2.4 | MIT License | kennethormandy.com/journal/normalize-opentype-css*/::-moz-selection,::selection{color:inherit;text-shadow:inherit;background-color:#accef7}html,body,table{-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0}h1,h2,h3{-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1}abbr{text-transform:uppercase;-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"smcp" 1,"c2sc" 1;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"smcp" 1,"c2sc" 1;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"smcp" 1,"c2sc" 1}time{-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0}pre,kbd,samp,code{-webkit-font-feature-settings:"kern" 0,"liga" 0,"calt" 1,"dlig" 0,"pnum" 0,"tnum" 1,"onum" 0,"lnum" 1,"zero" 1;-moz-font-feature-settings:"kern" 0,"liga" 0,"calt" 1,"dlig" 0,"pnum" 0,"tnum" 1,"onum" 0,"lnum" 1,"zero" 1;font-feature-settings:"kern" 0,"liga" 0,"calt" 1,"dlig" 0,"pnum" 0,"tnum" 1,"onum" 0,"lnum" 1,"zero" 1}sup{-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0,"sups" 1;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0,"sups" 1;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0,"sups" 1}sub{-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0,"subs" 1;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0,"subs" 1;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 0,"subs" 1}input[type="color"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="number"],input[type="range"],input[type="tel"],input[type="week"]{-webkit-font-feature-settings:"kern" 0,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 0,"lnum" 1,"zero" 0;-moz-font-feature-settings:"kern" 0,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 0,"lnum" 1,"zero" 0;font-feature-settings:"kern" 0,"liga" 1,"calt" 1,"pnum" 1,"tnum" 0,"onum" 0,"lnum" 1,"zero" 0}tbody,caption{-webkit-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 0,"tnum" 1,"onum" 0,"lnum" 1,"zero" 1;-moz-font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 0,"tnum" 1,"onum" 0,"lnum" 1,"zero" 1;font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"pnum" 0,"tnum" 1,"onum" 0,"lnum" 1,"zero" 1}
+}
+	
+/* Base Styles */
+.base() {
+	*, *:before, *:after {
+		text-rendering: optimizeLegibility;
+		-moz-osx-font-smoothing: grayscale!important;
+		-webkit-font-smoothing: antialiased!important;
+		font-smoothing: antialiased!important;
+		font-feature-settings: "kern";
+		font-kerning: normal;
+		box-sizing: border-box;
+	}
+	html.touch *,html.touch *:before,html.touch *:after {
+		text-rendering: optimizeSpeed;
+	}
+	html {
+		font-size: 62.5%;
+	}
+	body:before,body:after {
+		display: block;
+		content: "";
+	}
+}
+
+/* Colors */
+@ht5orange:#E44D26;
+
+/* Fonts */
+.sans-serif() {
+	font-family: source-sans-pro,HelveticaNeue,TeXGyreHeros,FreeSans,"Nimbus Sans L","Liberation Sans",Arimo,Helvetica,Arial,sans-serif;
+}
+
+/* AddThis Settings */
+.addthis() {
+	.atss,.at4-follow,#at4m-mobile-container,.at4-whatsnext-outer-container,.at4-whatsnext {
+		z-index: 3!important;
+		user-select: none;
+	}
+	.addthis_horizontal_follow_toolbox a {
+		border-bottom: 0!important;
+	}
+	.addthis_bar {
+		user-select: none!important;
+	}
+	.addthis_bar_button {
+		font-kerning: none;
+		text-shadow: none!important;
+	}
+}
+
+/* Helper classes */
+.helper() {
+	/**
+	 * Hide visually and from screen readers
+	 */
+	.hidden {
+		display: none !important;
+	}
+	/**
+	 * Hide only visually, but have it available for screen readers
+	 */
+	.visuallyhidden {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+	/**
+	 * Extends the .visuallyhidden class to allow the element
+	 * to be focusable when navigated to via the keyboard
+	 */
+	.visuallyhidden.focusable:active,
+	.visuallyhidden.focusable:focus {
+		clip: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		position: static;
+		width: auto;
+	}
+	/**
+	 * Hide visually and from screen readers, but maintain layout
+	 */
+	.invisible {
+		visibility: hidden;
+	}
+	/**
+	 * Clearfix: contain floats
+	 *
+	 * For modern browsers
+	 * 1. The space content is one way to avoid an Opera bug when the
+	 *    `contenteditable` attribute is included anywhere else in the document.
+	 *    Otherwise it causes space to appear at the top and bottom of elements
+	 *    that receive the `clearfix` class.
+	 * 2. The use of `table` rather than `block` is only necessary if using
+	 *    `:before` to contain the top-margins of child elements.
+	 */
+	.clearfix:before,
+	.clearfix:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+	.clearfix:after {
+		clear: both;
+	}
+}
+
+/* Print styles */
+.print() {
+	@media print {
+		*,
+		*:before,
+		*:after {
+			background: transparent !important;
+			color: #000 !important;
+			box-shadow: none !important;
+			text-shadow: none !important;
+		}
+		a,
+		a:visited {
+			text-decoration: underline;
+		}
+		a[href]:after {
+			content: " (" attr(href) ")";
+		}
+		abbr[title]:after {
+			content: " (" attr(title) ")";
+		}
+		a[href^="#"]:after,
+		a[href^="javascript:"]:after {
+			content: "";
+		}
+		pre,
+		blockquote {
+			border: 1px solid #999;
+			page-break-inside: avoid;
+		}
+		thead {
+			display: table-header-group;
+		}
+		tr,
+		img {
+			page-break-inside: avoid;
+		}
+		img {
+			max-width: 100% !important;
+		}
+		p,
+		h2,
+		h3 {
+			orphans: 3;
+			widows: 3;
+		}
+		h2,
+		h3 {
+			page-break-after: avoid;
+		}
+	}
+}
